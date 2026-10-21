@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TV Energy Consumption</title>
+  <link rel="stylesheet" href="../css/theme.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/visualisation.css">
+  <link rel="stylesheet" href="../css/site.css">
+</head>
+<body>
+<nav class="site-nav" aria-label="Exercises"><ul><li><a href="../index.html">Home</a></li><li><a href="../ex4-1/index.html">Ex 4.1 SVG house</a></li><li><a href="../ex4-3/index.html">Ex 4.3–4.6 Bar chart</a></li><li><a href="../ex5/index.html">Ex 5 Multi-chart</a></li><li><a href="../ex6/index.html" aria-current="page">Ex 6 Interactivity</a></li></ul></nav>
+
+  <header class="page-header"><h1>TV Energy Consumption</h1></header>
+  <main>
+    <h2>Energy Consumption for different TV screen types and sizes</h2>
+    <p>TVs vary considerably in energy consumption. Pick a screen type to filter both charts.</p>
+    <div id="filters_screen"></div>
+    <div id="histogram" class="responsive-svg-container"></div>
+    <div id="scatterplot" class="responsive-svg-container"></div>
+  </main>
+  <footer>Pham Do Dat - 10989653</footer>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="js/load-data.js"></script>
+  <script src="js/shared-constants.js"></script>
+  <script src="js/interactions.js"></script>
+  <script src="js/histogram.js"></script>
+  <script src="js/scatterplot.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Exercise 5: Multi-chart page</title>
+  <link rel="stylesheet" href="../css/theme.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="../css/site.css">
+</head>
+<body>
+<nav class="site-nav" aria-label="Exercises"><ul><li><a href="../index.html">Home</a></li><li><a href="../ex4-1/index.html">Ex 4.1 SVG house</a></li><li><a href="../ex4-3/index.html">Ex 4.3–4.6 Bar chart</a></li><li><a href="../ex5/index.html" aria-current="page">Ex 5 Multi-chart</a></li><li><a href="../ex6/index.html">Ex 6 Interactivity</a></li></ul></nav>
+
+  <header class="page-header">
+    <h1>Electricity and TV Energy Use</h1>
+    <p>Three charts on one page: a bar chart, a line chart and a donut chart.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Energy consumption of 55-inch TVs by screen technology</h2>
+      <p>Average labelled energy consumption (kWh per year) for each screen type.</p>
+      <div id="bar-chart"></div>
+      <p class="source">Source: Energy Rating data for household appliances, Televisions (data/data_55in.csv)</p>
+    </section>
+
+    <section>
+      <h2>Average wholesale electricity price over time</h2>
+      <p>Average spot price in dollars per megawatt hour, excluding Tasmania and Snowy.</p>
+      <div id="line-chart"></div>
+      <p class="source">Source: ARE spot prices (data/ARE_Spot_Prices.csv)</p>
+    </section>
+
+    <section>
+      <h2>Number of TVs by screen size category</h2>
+      <p>Share of TV models that fall into the small, medium and large categories.</p>
+      <div id="donut-chart"></div>
+      <p class="source">Source: Energy Rating data for household appliances, Televisions (data/screensize_category.csv)</p>
+    </section>
+  </main>
+
+  <footer>Data Visualisation, Week 5</footer>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="js/bar-chart.js"></script>
+  <script src="js/line-chart.js"></script>
+  <script src="js/donut-chart.js"></script>
+</body>
+</html>

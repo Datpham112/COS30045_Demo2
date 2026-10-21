@@ -1,0 +1,7 @@
+.lead { font-size: 1.1rem; line-height: 1.6; max-width: 60ch; }
+.exercises { list-style: none; padding: 0; margin: 2rem 0 0; }
+.exercises li { border-top: 1px solid var(--rule); padding: 1.1rem 0; }
+.exercises li:last-child { border-bottom: 1px solid var(--rule); }
+.exercises a { font-size: 1.25rem; font-weight: 700; }
+.exercises p { margin: 0.3rem 0 0; }
+.wrap footer { color: var(--ink-soft); font-size: 0.9rem; margin-top: 2rem; }

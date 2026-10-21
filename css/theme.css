@@ -1,0 +1,44 @@
+:root {
+  --bg: #f3ece0;
+  --paper: #fffaf0;
+  --ink: #5c3a21;
+  --ink-soft: #8a6a50;
+  --rule: #e2d3bf;
+  --accent: #d2691e;
+  --accent-dark: #a8541a;
+  --accent-light: #ffc97f;
+  --nav: #3d2616;
+  --nav-ink: #f3e3d0;
+  --font: Georgia, "Times New Roman", serif;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font);
+}
+.page-header {
+  background: var(--accent);
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
+}
+.page-header h1 { margin: 0; font-size: 1.8rem; }
+.page-header p { margin: 0.4rem 0 0; }
+main, .wrap {
+  background: var(--paper);
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem 1.5rem 2rem;
+}
+body > footer {
+  background: var(--paper);
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0.5rem 1.5rem 1rem;
+  font-size: 0.85rem;
+}
+a { color: var(--accent-dark); }
+p { line-height: 1.5; }
+svg text { fill: var(--ink); font-family: inherit; }

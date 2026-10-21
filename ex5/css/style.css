@@ -1,0 +1,16 @@
+section { margin: 2.5rem 0; }
+h2 { margin-bottom: 0.25rem; }
+section > p { margin: 0.25rem 0 0.75rem; }
+
+svg {
+  width: 100%;
+  height: auto;
+  display: block;
+  background: var(--paper);
+  border: 1px solid var(--rule);
+}
+
+.source { font-size: 0.8rem; color: var(--ink-soft); margin-top: 0.5rem; }
+.axis-label { font-size: 14px; }
+.value-label { font-size: 13px; text-anchor: middle; }
+.legend text { font-size: 15px; dominant-baseline: middle; }
